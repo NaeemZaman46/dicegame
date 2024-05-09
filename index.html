@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game</h1>
+        <div class="player" id="player1">
+            <h2>Player 1</h2>
+            <p>Score: <span id="score1">0</span></p>
+            <button id="roll1" onclick="rollDice(1)">Roll Dice</button>
+        </div>
+        <div class="player" id="player2">
+            <h2>Player 2</h2>
+            <p>Score: <span id="score2">0</span></p>
+            <button id="roll2" onclick="rollDice(2)">Roll Dice</button>
+        </div>
+        <p id="winner"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game</h1>
+        <div class="player" id="player1">
+            <h2>Player 1</h2>
+            <p>Score: <span id="score1">0</span></p>
+            <p class="dice" id="dice1"></p>
+            <button id="roll1" onclick="rollDice(1)">Roll Dice</button>
+        </div>
+        <div class="player" id="player2">
+            <h2>Player 2</h2>
+            <p>Score: <span id="score2">0</span></p>
+            <p class="dice" id="dice2"></p>
+            <button id="roll2" onclick="rollDice(2)">Roll Dice</button>
+        </div>
+        <p id="winner"></p>
+        <button id="restart" onclick="restartGame()">Restart Game</button>
+    </div>
+
+    <script src="app.js">
+       
+    </script>
+</body>
+</html>
